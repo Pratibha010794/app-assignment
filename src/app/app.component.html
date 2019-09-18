@@ -1,2 +1,3 @@
-<button (click)="userLogin()">Login</button>
+<h1>Welcome to Github!!!!</h1>
+<button [ngClass]="{'green-color': !isUserLogin}" class="btn" (click)="userLogin()">{{isUserLogin ? 'Logout' : 'Login'}}</button>
 <router-outlet></router-outlet>

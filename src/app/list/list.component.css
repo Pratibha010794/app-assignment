@@ -1,0 +1,16 @@
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    /* margin: 10px; */
+    background: #d68113;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 10px;
+}
