@@ -1,0 +1,10 @@
+<h2 *ngIf="arrayOfRepos.length">List of Repositeries</h2>
+<ul>
+    <li *ngFor="let item of arrayOfRepos" (click)="getContent(item.name, item.owner.login)">{{item.name}}</li>
+</ul>
+<div *ngIf="listOfFiles.length">
+    <h3>List of files</h3>
+    <ul>
+        <li *ngFor="let item of listOfFiles">{{item.name}}</li>
+    </ul>
+</div>
